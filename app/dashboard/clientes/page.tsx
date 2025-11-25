@@ -30,7 +30,10 @@ export default function ListaClientesPage() {
 
   return (
     <div style={{ padding: 20 }}>
-      <h1>Clientes</h1>
+      <div className="flex items-center gap-4">
+        <h1>Clientes</h1>
+        <a className="block w-max py-2.5 px-4 bg-blue-600 text-white rounded-md font-bold" href="/dashboard/clientes/novo">Novo Cliente</a>
+      </div>
 
       <table
         style={{
